@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "A happy holidaymaker",
+        "description": "",
+        "id": "accpetance-testing-to-validate-sydneys-weather;a-happy-holidaymaker",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 614059769,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I like to holiday in Sydney",
+            "match": {
+              "location": "CheckWeatherStep.i_like_to_holiday_in_Sydney()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38990181,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I only like to holiday on Thursdays",
+            "match": {
+              "location": "CheckWeatherStep.i_only_like_to_holiday_on_Thursdays()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3039661143,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I look up the weather forecast",
+            "match": {
+              "location": "CheckWeatherStep.i_look_up_the_weather_forecast()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214843,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I receive the weather forecast",
+            "match": {
+              "location": "CheckWeatherStep.i_receive_the_weather_forecast()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4261383,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the temperature is warmer than 10 degrees",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 31
+                }
+              ],
+              "location": "CheckWeatherStep.the_temperature_is_warmer_than_degrees(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Accpetance testing to validate Sydneys Weather",
+    "description": "On Thruady is \u003e 10 degree C",
+    "id": "accpetance-testing-to-validate-sydneys-weather",
+    "keyword": "Feature",
+    "uri": "CheckWeather.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validate User is able to Order Items and checkout successfully",
+        "description": "",
+        "id": "acceptance-testing-to-validate-order-items-is-working.;validate-user-is-able-to-order-items-and-checkout-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21318037891,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the home page",
+            "match": {
+              "location": "OrderItemStep.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37380,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user wants to place order",
+            "match": {
+              "location": "OrderItemStep.the_user_wants_to_place_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4671990941,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "He selects items from the displayed list of items",
+            "match": {
+              "location": "OrderItemStep.he_selects_items_from_the_displayed_list_of_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4389864433,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "He checks his shopping cart",
+            "match": {
+              "location": "OrderItemStep.he_checks_his_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2661209106,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "He does a check out",
+            "match": {
+              "location": "OrderItemStep.he_does_a_check_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143198476,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "He logins with this credentials",
+            "match": {
+              "location": "OrderItemStep.he_logins_with_this_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2554632621,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enters his address",
+            "match": {
+              "location": "OrderItemStep.enters_his_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3326673554,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "He confirms terms and conditions",
+            "match": {
+              "location": "OrderItemStep.he_confirms_terms_and_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1392192222,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "pays for the items",
+            "match": {
+              "location": "OrderItemStep.pays_for_the_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2171167436,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "He confirms his order",
+            "match": {
+              "location": "OrderItemStep.he_confirms_his_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 783717635,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks if the order is places successfully",
+            "match": {
+              "location": "OrderItemStep.checks_if_the_order_is_places_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@order-items-positive-scenario"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate order items is working.",
+    "description": "In order to validate that the order items is working fine\r\nwe will test the scenario.",
+    "id": "acceptance-testing-to-validate-order-items-is-working.",
+    "keyword": "Feature",
+    "uri": "OrderItem.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@order-items"
+      }
+    ]
+  }
+]
